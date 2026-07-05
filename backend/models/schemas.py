@@ -1,4 +1,7 @@
+from typing import List
+
 from pydantic import BaseModel
+
 
 class ChatRequest(BaseModel):
     query: str
@@ -7,3 +10,4 @@ class ChatRequest(BaseModel):
 class ChatResponse(BaseModel):
     agent: str
     response: str
+    sources: List[str]

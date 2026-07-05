@@ -1,4 +1,5 @@
 from backend.services.router_service import classify_query
+
 from backend.agents.billing import billing_agent
 from backend.agents.technical import technical_agent
 from backend.agents.product import product_agent
@@ -13,31 +14,27 @@ def route_query(query: str):
     print(f"Detected Intent: {intent}")
 
     if intent == "billing":
-        return {
-            "agent": "Billing Support",
-            "response": billing_agent(query)
-        }
+        result = billing_agent(query)
+        agent = "Billing Support"
 
     elif intent == "technical":
-        return {
-            "agent": "Technical Support",
-            "response": technical_agent(query)
-        }
+        result = technical_agent(query)
+        agent = "Technical Support"
 
     elif intent == "product":
-        return {
-            "agent": "Product Specialist",
-            "response": product_agent(query)
-        }
+        result = product_agent(query)
+        agent = "Product Specialist"
 
     elif intent == "complaint":
-        return {
-            "agent": "Complaint Resolution",
-            "response": complaint_agent(query)
-        }
+        result = complaint_agent(query)
+        agent = "Complaint Resolution"
 
     else:
-        return {
-            "agent": "FAQ Assistant",
-            "response": faq_agent(query)
-        }
+        result = faq_agent(query)
+        agent = "FAQ Assistant"
+
+    return {
+        "agent": agent,
+        "response": result["answer"],
+        "sources": result["sources"]
+    }

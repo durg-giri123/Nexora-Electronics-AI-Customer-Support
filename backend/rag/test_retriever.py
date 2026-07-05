@@ -1,8 +1,26 @@
 from backend.rag.retriever import retrieve_context
 
-query = "What is the warranty period?"
+queries = [
+    "What is the warranty period?",
+    "How many days does a refund take?",
+    "How long does shipping take?",
+    "When is technical support available?",
+    "Do I need an invoice for warranty?",
+    "What products does Nexora manufacture?",
+    "How can I claim my warranty?"
+]
 
-context = retrieve_context(query)
+for query in queries:
 
-print("\nRetrieved Context:\n")
-print(context)
+    print("=" * 80)
+    print(f"Query: {query}")
+    print("=" * 80)
+
+    context, sources = retrieve_context(query)
+
+    print("\nRetrieved Sources:")
+
+    for source in sources:
+        print(f"📄 {source}")
+
+    print("\n")

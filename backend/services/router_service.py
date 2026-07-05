@@ -9,26 +9,31 @@ model = genai.GenerativeModel("gemini-2.5-flash")
 
 def classify_query(query: str):
 
-    # ---------- Rule-Based Routing ----------
-
     query_lower = query.lower()
 
-    faq_keywords = [
-        "warranty",
-        "refund",
-        "return",
-        "replacement",
-        "replace",
-        "shipping",
-        "delivery",
-        "invoice",
-        "policy",
-        "support portal"
+    # ---------------- Complaint ----------------
+    complaint_keywords = [
+        "complaint",
+        "damaged",
+        "damage",
+        "defective",
+        "broken delivery",
+        "wrong product",
+        "poor service",
+        "bad service",
+        "late delivery",
+        "received damaged"
     ]
 
+    # ---------------- Technical ----------------
     technical_keywords = [
+        "technical",
+        "technical support",
         "not working",
-        "broken",
+        "not turning on",
+        "repair",
+        "issue",
+        "problem",
         "battery",
         "charging",
         "screen",
@@ -39,41 +44,56 @@ def classify_query(query: str):
         "bluetooth",
         "speaker",
         "camera",
-        "overheating"
+        "overheating",
+        "error"
     ]
 
+    # ---------------- Billing ----------------
     billing_keywords = [
         "payment",
         "paid",
-        "bill",
         "billing",
+        "bill",
         "transaction",
         "upi",
         "credit card",
-        "debit card"
+        "debit card",
+        "invoice",
+        "refund",
+        "emi"
     ]
 
-    complaint_keywords = [
-        "complaint",
-        "damaged",
-        "defective",
-        "wrong product",
-        "late delivery",
-        "poor service"
-    ]
-
+    # ---------------- Product ----------------
     product_keywords = [
         "recommend",
+        "recommendation",
         "suggest",
         "buy",
+        "purchase",
+        "compare",
         "best laptop",
         "which laptop",
-        "product",
-        "compare"
+        "which charger",
+        "product"
     ]
 
-    if any(word in query_lower for word in faq_keywords):
-        return "faq"
+    # ---------------- FAQ ----------------
+    faq_keywords = [
+        "warranty",
+        "shipping",
+        "delivery time",
+        "support timing",
+        "working hours",
+        "policy",
+        "replacement",
+        "replace",
+        "return"
+    ]
+
+    # ---------- Rule Based ----------
+
+    if any(word in query_lower for word in complaint_keywords):
+        return "complaint"
 
     if any(word in query_lower for word in technical_keywords):
         return "technical"
@@ -81,20 +101,18 @@ def classify_query(query: str):
     if any(word in query_lower for word in billing_keywords):
         return "billing"
 
-    if any(word in query_lower for word in complaint_keywords):
-        return "complaint"
-
     if any(word in query_lower for word in product_keywords):
         return "product"
+
+    if any(word in query_lower for word in faq_keywords):
+        return "faq"
 
     # ---------- Gemini Fallback ----------
 
     prompt = f"""
-You are an AI Intent Classifier.
+You are an intent classifier.
 
-Classify the customer query into EXACTLY ONE category.
-
-Available Categories:
+Return ONLY one word.
 
 billing
 technical
@@ -102,36 +120,7 @@ product
 complaint
 faq
 
-Examples:
-
-What is the warranty period? -> faq
-
-How do I claim warranty? -> faq
-
-When will I get my refund? -> faq
-
-How long does shipping take? -> faq
-
-My laptop is overheating -> technical
-
-Battery drains quickly -> technical
-
-My payment failed -> billing
-
-Show my invoice -> billing
-
-Recommend a gaming laptop -> product
-
-Suggest the best laptop -> product
-
-I received a damaged product -> complaint
-
-The delivery box was broken -> complaint
-
-Return ONLY one word.
-
 Customer Query:
-
 {query}
 """
 

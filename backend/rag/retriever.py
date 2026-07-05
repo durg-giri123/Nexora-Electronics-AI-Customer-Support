@@ -21,11 +21,20 @@ print("✅ FAISS loaded")
 
 
 def retrieve_context(query: str, k: int = 3):
+
     docs = vectorstore.similarity_search(query, k=k)
 
     context = ""
+    sources = []
 
     for doc in docs:
         context += doc.page_content + "\n\n"
 
-    return context
+        source = doc.metadata.get("source", "Unknown")
+
+        source = source.replace("\\", "/").split("/")[-1]
+
+        if source not in sources:
+            sources.append(source)
+
+    return context, sources

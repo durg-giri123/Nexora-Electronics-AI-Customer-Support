@@ -4,7 +4,7 @@ from backend.services.gemini_service import ask_gemini
 
 def rag_answer(query: str, system_prompt: str):
 
-    context = retrieve_context(query)
+    context, sources = retrieve_context(query)
 
     final_prompt = f"""
 {system_prompt}
@@ -32,4 +32,9 @@ Instructions:
 4. Be professional.
 """
 
-    return ask_gemini(final_prompt)
+    answer = ask_gemini(final_prompt)
+
+    return {
+        "answer": answer,
+        "sources": sources
+    }

@@ -18,13 +18,17 @@ def health():
         "status": "Running"
     }
 
-
 @router.post("/chat", response_model=ChatResponse)
 def chat(request: ChatRequest):
 
     result = route_query(request.query)
 
+    print("\n========== ROUTER RESULT ==========")
+    print(result)
+    print("===================================\n")
+
     return ChatResponse(
         agent=result["agent"],
-        response=result["response"]
+        response=result["response"],
+        sources=result["sources"]
     )
