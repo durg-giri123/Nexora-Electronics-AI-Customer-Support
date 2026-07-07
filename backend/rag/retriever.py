@@ -1,28 +1,37 @@
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 
-print("Step 1: Loading embedding model...")
+embedding_model = None
+vectorstore = None
 
-embedding_model = HuggingFaceEmbeddings(
-    model_name="sentence-transformers/all-MiniLM-L6-v2"
-)
 
-print("✅ Embedding model loaded")
+def load_vectorstore():
+    global embedding_model, vectorstore
 
-print("Step 2: Loading FAISS index...")
+    if embedding_model is None:
+        print("Loading embedding model...")
+        embedding_model = HuggingFaceEmbeddings(
+            model_name="sentence-transformers/all-MiniLM-L6-v2"
+        )
+        print("Embedding model loaded.")
 
-vectorstore = FAISS.load_local(
-    "backend/vectorstore/faiss_index",
-    embedding_model,
-    allow_dangerous_deserialization=True
-)
+    if vectorstore is None:
+        print("Loading FAISS index...")
+        vectorstore = FAISS.load_local(
+            "backend/vectorstore/faiss_index",
+            embedding_model,
+            allow_dangerous_deserialization=True
+        )
+        print("FAISS index loaded.")
 
-print("✅ FAISS loaded")
+    return vectorstore
 
 
 def retrieve_context(query: str, k: int = 5):
 
-    docs = vectorstore.max_marginal_relevance_search(
+    store = load_vectorstore()
+
+    docs = store.max_marginal_relevance_search(
         query=query,
         k=k,
         fetch_k=10
