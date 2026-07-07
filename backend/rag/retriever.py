@@ -20,18 +20,22 @@ vectorstore = FAISS.load_local(
 print("✅ FAISS loaded")
 
 
-def retrieve_context(query: str, k: int = 3):
+def retrieve_context(query: str, k: int = 5):
 
-    docs = vectorstore.similarity_search(query, k=k)
+    docs = vectorstore.max_marginal_relevance_search(
+        query=query,
+        k=k,
+        fetch_k=10
+    )
 
     context = ""
     sources = []
 
     for doc in docs:
+
         context += doc.page_content + "\n\n"
 
         source = doc.metadata.get("source", "Unknown")
-
         source = source.replace("\\", "/").split("/")[-1]
 
         if source not in sources:

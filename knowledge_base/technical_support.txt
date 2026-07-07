@@ -1,5 +1,200 @@
-NEXORA TECHNICAL SUPPORT
+NEXORA TECHNICAL SUPPORT GUIDE
+
+SUPPORT HOURS
 
 Technical support is available Monday to Saturday from 9:00 AM to 7:00 PM.
 
-Customers can contact technical support through the Nexora Customer Support Portal.
+Customers can raise technical support requests through the Nexora Customer Support Portal.
+
+--------------------------------------------------
+
+LAPTOP NOT TURNING ON
+
+Possible Causes
+
+- Battery completely discharged
+- Faulty charger
+- Loose charging cable
+- Motherboard issue
+
+Recommended Steps
+
+1. Connect the original Nexora charger.
+2. Hold the power button for 15 seconds.
+3. Charge the laptop for at least 30 minutes.
+4. Try another power outlet.
+5. Contact Nexora Support if the issue persists.
+
+--------------------------------------------------
+
+LAPTOP OVERHEATING
+
+Possible Causes
+
+- Dust blocking air vents
+- Running heavy applications
+- High ambient temperature
+- Cooling fan malfunction
+
+Recommended Steps
+
+- Keep ventilation holes uncovered.
+- Use the laptop on a flat surface.
+- Close unnecessary applications.
+- Restart the laptop.
+- Clean cooling vents regularly.
+- Use an external cooling pad for heavy workloads.
+
+--------------------------------------------------
+
+BATTERY DRAINS QUICKLY
+
+Possible Causes
+
+- High screen brightness
+- Too many background applications
+- Battery aging
+- High performance mode
+
+Recommended Steps
+
+- Reduce screen brightness.
+- Enable Battery Saver mode.
+- Close unused applications.
+- Disable unnecessary startup programs.
+- Update Windows and drivers.
+
+--------------------------------------------------
+
+CHARGING ISSUES
+
+If your laptop is not charging:
+
+- Verify that the charger LED is ON.
+- Ensure the charging cable is firmly connected.
+- Check the charging port for dust.
+- Use only genuine Nexora chargers.
+- Try another compatible power outlet.
+
+--------------------------------------------------
+
+KEYBOARD NOT WORKING
+
+Possible Causes
+
+- Driver issues
+- Dust under keys
+- Liquid damage
+
+Recommended Steps
+
+- Restart the laptop.
+- Clean the keyboard gently.
+- Update keyboard drivers.
+- Connect an external keyboard to verify hardware.
+- Contact support if the issue continues.
+
+--------------------------------------------------
+
+TOUCHPAD NOT WORKING
+
+Possible Causes
+
+- Touchpad disabled
+- Driver issue
+- Hardware fault
+
+Recommended Steps
+
+- Enable the touchpad using the function key.
+- Restart the system.
+- Update touchpad drivers.
+- Check Windows touchpad settings.
+
+--------------------------------------------------
+
+DISPLAY PROBLEMS
+
+Symptoms
+
+- Black screen
+- Flickering display
+- Dim screen
+- No display
+
+Recommended Steps
+
+- Restart the laptop.
+- Increase brightness.
+- Connect an external monitor.
+- Update graphics drivers.
+- Contact Nexora Support if the display remains blank.
+
+--------------------------------------------------
+
+WIFI NOT CONNECTING
+
+Recommended Steps
+
+- Restart the WiFi router.
+- Restart the laptop.
+- Forget and reconnect to the network.
+- Update wireless drivers.
+- Disable Airplane Mode.
+
+--------------------------------------------------
+
+BLUETOOTH NOT WORKING
+
+Recommended Steps
+
+- Turn Bluetooth OFF and ON.
+- Restart the laptop.
+- Update Bluetooth drivers.
+- Remove and pair the device again.
+
+--------------------------------------------------
+
+SPEAKER ISSUES
+
+Recommended Steps
+
+- Increase system volume.
+- Check mute settings.
+- Restart the laptop.
+- Update audio drivers.
+- Test using headphones.
+
+--------------------------------------------------
+
+WEBCAM NOT WORKING
+
+Recommended Steps
+
+- Check camera privacy settings.
+- Close other applications using the camera.
+- Restart the laptop.
+- Update camera drivers.
+
+--------------------------------------------------
+
+WHEN TO CONTACT SUPPORT
+
+Please contact Nexora Technical Support immediately if:
+
+- Laptop will not power on.
+- Smoke or burning smell is observed.
+- Battery is swollen.
+- Screen is cracked due to manufacturing defects.
+- Charging port becomes excessively hot.
+- Laptop shuts down repeatedly.
+
+--------------------------------------------------
+
+IMPORTANT NOTES
+
+Only genuine Nexora accessories should be used.
+
+Unauthorized repairs may void the warranty.
+
+Always back up important data before submitting your laptop for repair.

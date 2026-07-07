@@ -4,7 +4,7 @@ SYSTEM_PROMPT = """
 You are a helpful AI Customer Support Assistant.
 """
 
-query = "What is the warranty period?"
+query = query = "How can I download my invoice?"
 
 result = rag_answer(query, SYSTEM_PROMPT)
 

@@ -1,13 +1,86 @@
 NEXORA WARRANTY POLICY
 
-All Nexora products come with a standard 1-year manufacturer warranty.
+GENERAL WARRANTY
 
-Products damaged due to physical misuse, water damage, or unauthorized repairs are not covered under warranty.
+- All Nexora laptops come with a standard 1-year manufacturer warranty.
+- Laptop batteries are covered for one year.
+- Laptop chargers are covered for one year.
+- Accessories such as USB cables, HDMI cables, adapters, and power cords are covered for six months.
 
-Customers should keep their original invoice to claim warranty services.
+WHAT IS COVERED
 
-Warranty claims can be raised through the Nexora Customer Support Portal.
+The warranty covers manufacturing defects including:
 
-Laptop batteries and chargers are covered for one year.
+- Hardware malfunction
+- Motherboard failure
+- Display defects
+- Keyboard defects
+- Touchpad malfunction
+- Factory battery defects
+- Factory charger defects
+- Internal hardware failure
 
-Accessories such as cables and adapters are covered for six months.
+WHAT IS NOT COVERED
+
+Warranty does not cover:
+
+- Physical damage
+- Water or liquid damage
+- Fire damage
+- Accidental drops
+- Broken screens caused by impact
+- Unauthorized repair attempts
+- Damage caused by third-party accessories
+- Cosmetic scratches
+- Theft or loss
+
+WARRANTY CLAIM PROCESS
+
+Customers must:
+
+1. Visit the Nexora Customer Support Portal.
+2. Submit the product serial number.
+3. Upload the purchase invoice.
+4. Describe the issue.
+5. Wait for verification by the support team.
+
+After approval:
+
+- Pickup may be scheduled.
+- Customers may visit an authorized service center.
+- Repair or replacement will be decided after inspection.
+
+REPLACEMENT POLICY
+
+Replacement is available only if:
+
+- Product was damaged during delivery.
+- Replacement request is raised within 7 days.
+- Manufacturing defect is confirmed by technicians.
+
+Warranty does not guarantee replacement for every issue.
+
+REQUIRED DOCUMENTS
+
+Customers should keep:
+
+- Original invoice
+- Product serial number
+- Warranty registration details
+- Purchase confirmation email (optional)
+
+SERVICE CENTERS
+
+Warranty service is available only through authorized Nexora service centers.
+
+Using unauthorized repair shops immediately voids the warranty.
+
+IMPORTANT NOTES
+
+Warranty begins from the invoice date.
+
+Warranty cannot be transferred to another customer.
+
+Replacement products continue under the original warranty period.
+
+Extended warranty plans are currently not available.
