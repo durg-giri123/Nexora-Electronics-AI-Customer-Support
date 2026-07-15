@@ -1,14 +1,18 @@
-﻿venv/
+﻿# Python
+venv/
 __pycache__/
 *.pyc
+
+# Environment
 .env
 
-backend/vectorstore/
-backend/embeddings/
-
+# Node
 node_modules/
 
-.vscode/
-.idea/
+# Old Vector Store
+backend/vectorstore/
 
-.DS_Store
+# Datasets
+datasets/
+datasets copy/
+datasets copy 2/

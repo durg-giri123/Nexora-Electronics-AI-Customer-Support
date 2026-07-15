@@ -1,53 +1,67 @@
-from langchain_community.vectorstores import FAISS
-from langchain_community.embeddings import HuggingFaceEmbeddings
+import os
+import re
 
-embedding_model = None
-vectorstore = None
+KNOWLEDGE_FOLDER = "knowledge_base"
+
+documents = []
+
+print("Loading Knowledge Base...")
+
+for filename in os.listdir(KNOWLEDGE_FOLDER):
+
+    if filename.endswith(".txt"):
+
+        filepath = os.path.join(KNOWLEDGE_FOLDER, filename)
+
+        with open(filepath, "r", encoding="utf-8") as f:
+
+            text = f.read()
+
+            paragraphs = re.split(r"\n\s*\n", text)
+
+            for para in paragraphs:
+
+                para = para.strip()
+
+                if para:
+
+                    documents.append({
+                        "text": para,
+                        "source": filename
+                    })
+
+print(f"Loaded {len(documents)} knowledge chunks.")
 
 
-def load_vectorstore():
-    global embedding_model, vectorstore
+def score(query, text):
 
-    if embedding_model is None:
-        print("Loading embedding model...")
-        embedding_model = HuggingFaceEmbeddings(
-            model_name="sentence-transformers/all-MiniLM-L6-v2"
-        )
-        print("Embedding model loaded.")
+    query_words = set(query.lower().split())
 
-    if vectorstore is None:
-        print("Loading FAISS index...")
-        vectorstore = FAISS.load_local(
-            "backend/vectorstore/faiss_index",
-            embedding_model,
-            allow_dangerous_deserialization=True
-        )
-        print("FAISS index loaded.")
+    text_words = set(text.lower().split())
 
-    return vectorstore
+    return len(query_words & text_words)
 
 
 def retrieve_context(query: str, k: int = 5):
 
-    store = load_vectorstore()
-
-    docs = store.max_marginal_relevance_search(
-        query=query,
-        k=k,
-        fetch_k=10
+    ranked = sorted(
+        documents,
+        key=lambda x: score(query, x["text"]),
+        reverse=True
     )
 
+    top_docs = ranked[:k]
+
     context = ""
+
     sources = []
 
-    for doc in docs:
+    for doc in top_docs:
 
-        context += doc.page_content + "\n\n"
+        context += doc["text"] + "\n\n"
 
-        source = doc.metadata.get("source", "Unknown")
-        source = source.replace("\\", "/").split("/")[-1]
+        if doc["source"] not in sources:
 
-        if source not in sources:
-            sources.append(source)
+            sources.append(doc["source"])
 
     return context, sources
