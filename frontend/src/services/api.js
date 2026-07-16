@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://nexora-backend-syl2.onrender.com",
+  baseURL: "https://nexora-ai-backend-lm12.onrender.com",
 });
 
 export async function sendMessage(query) {
