@@ -1,200 +1,357 @@
-NEXORA TECHNICAL SUPPORT GUIDE
+NEXORA TECHNICAL SUPPORT KNOWLEDGE BASE
 
-SUPPORT HOURS
+Question:
+My laptop is not turning on.
 
-Technical support is available Monday to Saturday from 9:00 AM to 7:00 PM.
+Answer:
+If your Nexora laptop is not turning on:
 
-Customers can raise technical support requests through the Nexora Customer Support Portal.
+1. Connect the original charger.
+2. Ensure the charging indicator is glowing.
+3. Press and hold the power button for 15 seconds.
+4. Remove all USB devices.
+5. Try turning it on again.
 
---------------------------------------------------
+If the issue continues, visit the nearest Nexora Service Center.
 
-LAPTOP NOT TURNING ON
-
-Possible Causes
-
-- Battery completely discharged
-- Faulty charger
-- Loose charging cable
-- Motherboard issue
-
-Recommended Steps
-
-1. Connect the original Nexora charger.
-2. Hold the power button for 15 seconds.
-3. Charge the laptop for at least 30 minutes.
-4. Try another power outlet.
-5. Contact Nexora Support if the issue persists.
+Keywords:
+laptop not turning on
+power issue
+dead laptop
+black screen
+cannot start laptop
 
 --------------------------------------------------
 
-LAPTOP OVERHEATING
+Question:
+My laptop battery drains quickly.
 
-Possible Causes
+Answer:
+If your laptop battery drains quickly:
 
-- Dust blocking air vents
-- Running heavy applications
-- High ambient temperature
-- Cooling fan malfunction
+1. Reduce screen brightness.
+2. Enable Battery Saver mode.
+3. Close unnecessary background applications.
+4. Disconnect unused Bluetooth devices.
+5. Update Windows and all drivers.
+6. Restart the laptop.
 
-Recommended Steps
+If battery backup remains below two hours, contact Nexora Technical Support.
 
-- Keep ventilation holes uncovered.
-- Use the laptop on a flat surface.
-- Close unnecessary applications.
-- Restart the laptop.
-- Clean cooling vents regularly.
-- Use an external cooling pad for heavy workloads.
-
---------------------------------------------------
-
-BATTERY DRAINS QUICKLY
-
-Possible Causes
-
-- High screen brightness
-- Too many background applications
-- Battery aging
-- High performance mode
-
-Recommended Steps
-
-- Reduce screen brightness.
-- Enable Battery Saver mode.
-- Close unused applications.
-- Disable unnecessary startup programs.
-- Update Windows and drivers.
+Keywords:
+battery drains quickly
+battery issue
+poor battery backup
+battery problem
+battery life
 
 --------------------------------------------------
 
-CHARGING ISSUES
+Question:
+My laptop is overheating.
 
-If your laptop is not charging:
+Answer:
+To reduce overheating:
 
-- Verify that the charger LED is ON.
-- Ensure the charging cable is firmly connected.
-- Check the charging port for dust.
-- Use only genuine Nexora chargers.
-- Try another compatible power outlet.
+1. Keep air vents clean.
+2. Use the laptop on a hard surface.
+3. Close heavy applications.
+4. Restart the device.
+5. Update BIOS and drivers.
 
---------------------------------------------------
+Persistent overheating requires inspection at a Nexora Service Center.
 
-KEYBOARD NOT WORKING
-
-Possible Causes
-
-- Driver issues
-- Dust under keys
-- Liquid damage
-
-Recommended Steps
-
-- Restart the laptop.
-- Clean the keyboard gently.
-- Update keyboard drivers.
-- Connect an external keyboard to verify hardware.
-- Contact support if the issue continues.
+Keywords:
+overheating
+laptop heating
+high temperature
+fan noise
+hot laptop
 
 --------------------------------------------------
 
-TOUCHPAD NOT WORKING
+Question:
+WiFi is not working.
 
-Possible Causes
+Answer:
+Try these steps:
 
-- Touchpad disabled
-- Driver issue
-- Hardware fault
+1. Restart your WiFi router.
+2. Forget and reconnect the WiFi network.
+3. Restart your laptop.
+4. Update the wireless driver.
+5. Run Windows Network Troubleshooter.
 
-Recommended Steps
+If the problem continues, contact Technical Support.
 
-- Enable the touchpad using the function key.
-- Restart the system.
-- Update touchpad drivers.
-- Check Windows touchpad settings.
-
---------------------------------------------------
-
-DISPLAY PROBLEMS
-
-Symptoms
-
-- Black screen
-- Flickering display
-- Dim screen
-- No display
-
-Recommended Steps
-
-- Restart the laptop.
-- Increase brightness.
-- Connect an external monitor.
-- Update graphics drivers.
-- Contact Nexora Support if the display remains blank.
+Keywords:
+wifi problem
+wifi issue
+internet problem
+cannot connect wifi
+wireless issue
 
 --------------------------------------------------
 
-WIFI NOT CONNECTING
+Question:
+Bluetooth is not working.
 
-Recommended Steps
+Answer:
+Please try the following:
 
-- Restart the WiFi router.
-- Restart the laptop.
-- Forget and reconnect to the network.
-- Update wireless drivers.
-- Disable Airplane Mode.
+1. Turn Bluetooth OFF and ON.
+2. Remove the paired device.
+3. Pair the device again.
+4. Restart the laptop.
+5. Update Bluetooth drivers.
 
---------------------------------------------------
+If Bluetooth still fails, contact Nexora Support.
 
-BLUETOOTH NOT WORKING
-
-Recommended Steps
-
-- Turn Bluetooth OFF and ON.
-- Restart the laptop.
-- Update Bluetooth drivers.
-- Remove and pair the device again.
-
---------------------------------------------------
-
-SPEAKER ISSUES
-
-Recommended Steps
-
-- Increase system volume.
-- Check mute settings.
-- Restart the laptop.
-- Update audio drivers.
-- Test using headphones.
+Keywords:
+bluetooth issue
+bluetooth not working
+cannot connect bluetooth
+pairing problem
 
 --------------------------------------------------
 
-WEBCAM NOT WORKING
+Question:
+Touchpad is not working.
 
-Recommended Steps
+Answer:
+To fix touchpad problems:
 
-- Check camera privacy settings.
-- Close other applications using the camera.
-- Restart the laptop.
-- Update camera drivers.
+1. Enable the touchpad from Windows Settings.
+2. Restart your laptop.
+3. Update the touchpad driver.
+4. Check if an external mouse is disabling the touchpad.
 
---------------------------------------------------
+If unresolved, visit a Nexora Service Center.
 
-WHEN TO CONTACT SUPPORT
-
-Please contact Nexora Technical Support immediately if:
-
-- Laptop will not power on.
-- Smoke or burning smell is observed.
-- Battery is swollen.
-- Screen is cracked due to manufacturing defects.
-- Charging port becomes excessively hot.
-- Laptop shuts down repeatedly.
+Keywords:
+touchpad
+trackpad
+cursor not moving
+touchpad issue
 
 --------------------------------------------------
 
-IMPORTANT NOTES
+Question:
+Keyboard is not working.
 
-Only genuine Nexora accessories should be used.
+Answer:
+Please try:
 
-Unauthorized repairs may void the warranty.
+1. Restart the laptop.
+2. Clean the keyboard.
+3. Update keyboard drivers.
+4. Check Windows keyboard settings.
 
-Always back up important data before submitting your laptop for repair.
+If multiple keys are not responding, hardware inspection may be required.
+
+Keywords:
+keyboard issue
+keyboard not working
+keys not responding
+typing issue
+
+--------------------------------------------------
+
+Question:
+Laptop screen is flickering.
+
+Answer:
+Possible solutions:
+
+1. Update graphics drivers.
+2. Restart the laptop.
+3. Reduce refresh rate temporarily.
+4. Test with an external monitor.
+
+If flickering continues, the display should be inspected.
+
+Keywords:
+screen flickering
+display issue
+screen blinking
+display problem
+
+--------------------------------------------------
+
+Question:
+Laptop is running slow.
+
+Answer:
+Improve performance by:
+
+1. Restarting the laptop.
+2. Removing unnecessary startup apps.
+3. Updating Windows.
+4. Freeing disk space.
+5. Running antivirus scans.
+
+If performance remains poor, contact Nexora Support.
+
+Keywords:
+slow laptop
+performance issue
+lagging
+slow computer
+
+--------------------------------------------------
+
+Question:
+Blue screen error appears.
+
+Answer:
+Blue Screen errors may occur due to software or hardware problems.
+
+Please:
+
+1. Restart the laptop.
+2. Install Windows updates.
+3. Update all drivers.
+4. Remove recently installed software.
+
+If the error repeats frequently, contact Nexora Technical Support.
+
+Keywords:
+blue screen
+bsod
+windows crash
+system crash
+
+--------------------------------------------------
+
+Question:
+Laptop is not charging.
+
+Answer:
+Please check:
+
+1. Original charger connection.
+2. Charging cable damage.
+3. Charging port cleanliness.
+4. Try another wall socket.
+
+If charging still fails, visit a Nexora Service Center.
+
+Keywords:
+not charging
+charger issue
+battery not charging
+charging problem
+
+--------------------------------------------------
+
+Question:
+Speaker is not working.
+
+Answer:
+Try these steps:
+
+1. Increase volume.
+2. Restart the laptop.
+3. Update audio drivers.
+4. Check audio output device.
+
+If speakers still do not work, contact Technical Support.
+
+Keywords:
+speaker issue
+no sound
+audio problem
+sound not working
+
+--------------------------------------------------
+
+Question:
+Camera is not working.
+
+Answer:
+Please:
+
+1. Allow camera permissions.
+2. Restart the application.
+3. Update camera drivers.
+4. Restart Windows.
+
+If the camera still fails, contact Nexora Support.
+
+Keywords:
+camera issue
+webcam not working
+camera problem
+
+--------------------------------------------------
+
+Question:
+Microphone is not working.
+
+Answer:
+Check:
+
+1. Microphone permissions.
+2. Recording device settings.
+3. Audio drivers.
+4. Restart your laptop.
+
+If the issue continues, contact Technical Support.
+
+Keywords:
+microphone issue
+mic not working
+voice issue
+
+--------------------------------------------------
+
+Question:
+USB ports are not working.
+
+Answer:
+Please:
+
+1. Restart the laptop.
+2. Test another USB device.
+3. Update chipset drivers.
+4. Clean the USB port carefully.
+
+If all ports fail, visit a Nexora Service Center.
+
+Keywords:
+usb issue
+usb not working
+port issue
+
+--------------------------------------------------
+
+Question:
+How do I update drivers?
+
+Answer:
+You can update drivers through Windows Update or by downloading the latest drivers from the official Nexora Support website.
+
+Keywords:
+update driver
+drivers
+install driver
+
+--------------------------------------------------
+
+Question:
+How do I contact Technical Support?
+
+Answer:
+Technical Support is available Monday to Saturday from 9:00 AM to 6:00 PM.
+
+Support Email:
+support@nexora.com
+
+Support Portal:
+Nexora Customer Support Portal
+
+Keywords:
+technical support
+customer support
+service center
+help

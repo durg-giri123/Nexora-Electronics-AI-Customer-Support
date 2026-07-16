@@ -10,7 +10,7 @@ router = APIRouter()
 @router.get("/")
 def home():
     return {
-        "message": "Welcome to Nexora Electronics AI Customer Support!"
+        "message": "THIS IS THE NEW BACKEND"
     }
 
 
@@ -26,7 +26,7 @@ def chat(request: ChatRequest):
 
     print("\n" + "=" * 80)
     print("REQUEST RECEIVED")
-    print("Query :", request.query)
+    print(f"Query: {request.query}")
     print("=" * 80)
 
     try:
@@ -45,13 +45,13 @@ def chat(request: ChatRequest):
         )
 
         print("\n" + "=" * 80)
-        print("RESPONSE SENT SUCCESSFULLY")
+        print("RESPONSE SENT")
         print(response)
         print("=" * 80)
 
         return response
 
-    except Exception as e:
+    except Exception:
 
         print("\n" + "=" * 80)
         print("EXCEPTION OCCURRED")

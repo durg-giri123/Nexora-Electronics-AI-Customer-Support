@@ -8,11 +8,24 @@ from backend.services.chat_memory import (
 
 def rag_answer(query: str, system_prompt: str):
 
+    # Retrieve relevant knowledge
     context, sources = retrieve_context(query)
+
+    print("=" * 80)
+    print("RETRIEVED SOURCES")
+    print(sources)
+    print("=" * 80)
+
+    print("=" * 80)
+    print("RETRIEVED CONTEXT")
+    print(context)
+    print("=" * 80)
 
     history = get_history()
 
     final_prompt = f"""
+You are Nexora Electronics Customer Support.
+
 {system_prompt}
 
 ==================================================
@@ -23,7 +36,7 @@ Conversation History
 
 ==================================================
 
-Company Knowledge Base
+Knowledge Base
 
 {context}
 
@@ -35,22 +48,37 @@ Customer Question
 
 ==================================================
 
-Instructions:
+Instructions
 
-1. Use the conversation history if helpful.
+1. Answer ONLY using the Knowledge Base above.
 
-2. Answer ONLY using the company knowledge.
+2. If the Knowledge Base contains information related to the question,
+answer naturally in complete sentences.
 
-3. If the answer is not present in the knowledge base, reply exactly:
+3. Do NOT ignore partially relevant information.
+
+4. Do NOT invent any information.
+
+5. Reply in a friendly professional tone.
+
+6. ONLY say:
 
 "I couldn't find this information in the company's knowledge base."
 
-4. Keep the answer concise.
-
-5. Be professional.
+when the Knowledge Base section is completely empty or unrelated.
 """
 
+    print("=" * 80)
+    print("PROMPT SENT TO GEMINI")
+    print(final_prompt)
+    print("=" * 80)
+
     answer = ask_gemini(final_prompt)
+
+    print("=" * 80)
+    print("GEMINI ANSWER")
+    print(answer)
+    print("=" * 80)
 
     add_message("User", query)
     add_message("Assistant", answer)

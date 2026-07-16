@@ -1,253 +1,58 @@
-NEXORA PRODUCT CATALOG
-
-ABOUT NEXORA
-
-Nexora Electronics manufactures high-quality laptops, chargers, batteries, adapters, keyboards, mice, webcams, docking stations, and related computer accessories.
-
---------------------------------------------------
-
-STUDENT LAPTOP SERIES
-
-Recommended For
-
-- College students
-- School students
-- Online learning
-- Programming
-- Office applications
-
-Specifications
-
-- Intel Core i5 Processor
-- 8 GB RAM
-- 512 GB SSD
-- 15.6-inch Full HD Display
-- Battery Backup up to 8 Hours
-
-Features
-
-- Lightweight design
-- Fast SSD storage
-- Long battery life
-- HD Webcam
-- Wi-Fi 6 Support
-
---------------------------------------------------
-
-BUSINESS LAPTOP SERIES
-
-Recommended For
-
-- Professionals
-- Office work
-- Business meetings
-- Productivity
-
-Specifications
-
-- Intel Core i7 Processor
-- 16 GB RAM
-- 512 GB SSD
-- Fingerprint Reader
-- TPM Security Chip
-
-Features
-
-- Premium build quality
-- Long battery backup
-- Enhanced security
-- Fast charging support
-
---------------------------------------------------
-
-GAMING LAPTOP SERIES
-
-Recommended For
-
-- Gaming
-- Video Editing
-- 3D Rendering
-- AI Development
-
-Specifications
-
-- Intel Core i7
-- 16 GB RAM
-- 1 TB SSD
-- Dedicated RTX Graphics
-- High Refresh Rate Display
-
-Features
-
-- Advanced Cooling System
-- RGB Keyboard
-- High Performance Mode
-- Dual Cooling Fans
-
---------------------------------------------------
-
-CREATOR LAPTOP SERIES
-
-Recommended For
-
-- Graphic Designers
-- Video Editors
-- Content Creators
-
-Specifications
-
-- Intel Core Ultra Processor
-- 32 GB RAM
-- 1 TB SSD
-- High Color Accuracy Display
-
-Features
-
-- Powerful GPU
-- Fast Rendering
-- Thunderbolt Support
-- Professional Display
-
---------------------------------------------------
-
-CHARGERS
-
-Available Options
-
-- 45W Charger
-- 65W Fast Charger
-- 100W USB-C Charger
-
-Features
-
-- Fast Charging
-- Over Voltage Protection
-- Temperature Protection
-
-Warranty
-
-- One Year
-
---------------------------------------------------
-
-BATTERIES
-
-Features
-
-- Genuine Nexora Battery
-- Long Backup
-- Fast Charging Support
-
-Warranty
-
-- One Year
-
---------------------------------------------------
-
-ADAPTERS
-
-Available Products
-
-- USB-C Adapter
-- HDMI Adapter
-- Ethernet Adapter
-- Multiport Hub
-
-Warranty
-
-- Six Months
-
---------------------------------------------------
-
-KEYBOARDS
-
-Available Models
-
-- Wired Keyboard
-- Wireless Keyboard
-- Mechanical Keyboard
-
-Features
-
-- Spill Resistant
-- Silent Keys
-- Multimedia Controls
-
---------------------------------------------------
-
-MOUSE
-
-Available Models
-
-- Wired Mouse
-- Wireless Mouse
-- Bluetooth Mouse
-
-Features
-
-- Adjustable DPI
-- Ergonomic Design
-- Plug and Play
-
---------------------------------------------------
-
-WEBCAM
-
-Features
-
-- Full HD Camera
-- Noise Reduction Microphone
-- Auto Focus
-
---------------------------------------------------
-
-PRODUCT RECOMMENDATION GUIDE
-
-Student Laptop Series
-
-Recommended for:
-- College students
-- School students
-- Online learning
-- Programming
-- Coding
-- Assignments
-- Everyday productivity
-
-Business Laptop Series
-
-Recommended for:
-- Professionals
-- Office work
-- Business meetings
-- Corporate users
-- Productivity
-- Remote work
+PRODUCT CATALOG
 
 Gaming Laptop Series
-
-Recommended for:
-- Gaming
-- AI development
-- Machine learning
-- Deep learning
-- Video editing
-- 3D rendering
-- Heavy workloads
+- Intel Core i7
+- RTX 4060
+- 16GB RAM
+- 1TB SSD
+- 165Hz Display
 
 Creator Laptop Series
+- Intel Core Ultra 9
+- RTX 4070
+- OLED Display
+- 32GB RAM
 
-Recommended for:
-- Graphic design
-- Content creation
-- Video editing
-- Photo editing
-- Professional media production
+Student Laptop
+- Intel Core i5
+- 8GB RAM
+- 512GB SSD
+- Lightweight
 
-Recommendation Rules
+Business Laptop
+- Intel Core i7
+- Fingerprint sensor
+- TPM Security
+- Long battery life
 
-- If a customer asks for a laptop for office work, recommend the Business Laptop Series.
-- If a customer asks for a laptop for college, school, programming or coding, recommend the Student Laptop Series.
-- If a customer asks for gaming, AI development, machine learning or heavy workloads, recommend the Gaming Laptop Series.
-- If a customer asks for graphic design, photo editing or video editing, recommend the Creator Laptop Series.
-- Recommend only Nexora products.
+Budget Laptop
+- Intel Core i3
+- 8GB RAM
+- Affordable
+
+Wireless Mouse
+- Bluetooth
+- Rechargeable
+
+Mechanical Keyboard
+- RGB
+- Hot Swappable
+
+USB-C Charger
+- 65W
+- Fast Charging
+
+Docking Station
+- HDMI
+- Ethernet
+- USB-C
+
+External SSD
+- 1TB
+- USB 3.2
+
+Noise Cancelling Headphones
+
+Laptop Backpack
+
+Laptop Cooling Pad

@@ -1,71 +1,31 @@
-NEXORA BILLING POLICY
+Accepted Payments
+Credit Card
+Debit Card
+UPI
+Net Banking
+EMI
 
-GENERAL BILLING
+Invoice
+Duplicate invoice available.
 
-Customers can pay using:
+GST Invoice
+Available upon request.
 
-- UPI
-- Credit Card
-- Debit Card
-- Net Banking
+Payment Failure
+Retry after 15 minutes.
 
-Payment confirmation is sent by email after a successful transaction.
+EMI Cancellation
 
---------------------------------------------------
+Refund Timeline
 
-PAYMENT FAILURE
+Late Refund
 
-If your payment fails:
+Transaction Failed but Money Debited
 
-- Verify that sufficient balance is available.
-- Ensure your internet connection is stable.
-- Retry after a few minutes.
-- Contact your bank if the amount has been deducted but the order was not placed.
+Gift Cards
 
---------------------------------------------------
+Coupons
 
-INVOICES
+Discount Codes
 
-Invoices are generated automatically after successful payment.
-
-Every customer receives an invoice for every purchase.
-
-Invoices are required for:
-
-- Warranty claims
-- Returns
-- Refunds
-- Replacement requests
-
---------------------------------------------------
-
-DOWNLOADING AN INVOICE
-
-Customers can download their invoice from the Nexora Customer Support Portal.
-
-Steps:
-
-1. Log in to the Nexora Customer Support Portal.
-2. Open My Orders.
-3. Select your order.
-4. Click Download Invoice.
-
-If the invoice is unavailable, contact Nexora Billing Support.
-
---------------------------------------------------
-
-REFUNDS
-
-Refunds are processed within 5-7 business days after approval.
-
-Refunds are credited back to the original payment method.
-
---------------------------------------------------
-
-IMPORTANT NOTES
-
-Always keep your invoice for future warranty and service requests.
-
-Invoices cannot be modified after purchase.
-
-Duplicate invoices can be requested from Nexora Billing Support.
+Corporate Billing

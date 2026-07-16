@@ -1,86 +1,43 @@
 NEXORA WARRANTY POLICY
 
-GENERAL WARRANTY
+Warranty Duration
+- All Nexora products come with a standard 1-year manufacturer warranty.
+- Premium laptops include a 2-year warranty.
+- Accessories carry a 6-month warranty.
 
-- All Nexora laptops come with a standard 1-year manufacturer warranty.
-- Laptop batteries are covered for one year.
-- Laptop chargers are covered for one year.
-- Accessories such as USB cables, HDMI cables, adapters, and power cords are covered for six months.
-
-WHAT IS COVERED
-
-The warranty covers manufacturing defects including:
-
-- Hardware malfunction
-- Motherboard failure
+Warranty Covers
+- Manufacturing defects
+- Hardware failure
+- Motherboard defects
+- Battery defects
 - Display defects
-- Keyboard defects
-- Touchpad malfunction
-- Factory battery defects
-- Factory charger defects
-- Internal hardware failure
+- Keyboard malfunction
+- Charging port failure
 
-WHAT IS NOT COVERED
-
-Warranty does not cover:
-
+Warranty Does Not Cover
 - Physical damage
-- Water or liquid damage
+- Water damage
 - Fire damage
-- Accidental drops
-- Broken screens caused by impact
-- Unauthorized repair attempts
-- Damage caused by third-party accessories
+- Unauthorized repair
+- Broken screen due to accidental drop
 - Cosmetic scratches
-- Theft or loss
 
-WARRANTY CLAIM PROCESS
+How to Claim Warranty
+1. Keep the original invoice.
+2. Visit the nearest Nexora Service Center.
+3. Submit the product.
+4. Technician inspection.
+5. Repair or replacement.
 
-Customers must:
+Replacement Policy
+- Replacement within 7 days for manufacturing defects.
+- Product must include all accessories.
+- Original packaging preferred.
 
-1. Visit the Nexora Customer Support Portal.
-2. Submit the product serial number.
-3. Upload the purchase invoice.
-4. Describe the issue.
-5. Wait for verification by the support team.
-
-After approval:
-
-- Pickup may be scheduled.
-- Customers may visit an authorized service center.
-- Repair or replacement will be decided after inspection.
-
-REPLACEMENT POLICY
-
-Replacement is available only if:
-
-- Product was damaged during delivery.
-- Replacement request is raised within 7 days.
-- Manufacturing defect is confirmed by technicians.
-
-Warranty does not guarantee replacement for every issue.
-
-REQUIRED DOCUMENTS
-
-Customers should keep:
-
-- Original invoice
+Documents Required
+- Invoice
 - Product serial number
-- Warranty registration details
-- Purchase confirmation email (optional)
+- Valid ID proof
 
-SERVICE CENTERS
-
-Warranty service is available only through authorized Nexora service centers.
-
-Using unauthorized repair shops immediately voids the warranty.
-
-IMPORTANT NOTES
-
-Warranty begins from the invoice date.
-
-Warranty cannot be transferred to another customer.
-
-Replacement products continue under the original warranty period.
-
-Extended warranty plans are currently not available.
+Extended Warranty
+- Can be purchased within 30 days of purchase.
