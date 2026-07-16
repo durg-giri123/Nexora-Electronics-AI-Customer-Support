@@ -10,7 +10,7 @@ router = APIRouter()
 @router.get("/")
 def home():
     return {
-        "message": "THIS IS THE NEW BACKEND"
+        "message": "Welcome to Nexora Electronics AI Customer Support!"
     }
 
 
@@ -24,19 +24,9 @@ def health():
 @router.post("/chat", response_model=ChatResponse)
 def chat(request: ChatRequest):
 
-    print("\n" + "=" * 80)
-    print("REQUEST RECEIVED")
-    print(f"Query: {request.query}")
-    print("=" * 80)
-
     try:
 
         result = route_query(request.query)
-
-        print("\n" + "=" * 80)
-        print("ROUTER RESULT")
-        print(result)
-        print("=" * 80)
 
         response = ChatResponse(
             agent=result["agent"],
@@ -44,18 +34,9 @@ def chat(request: ChatRequest):
             sources=result["sources"]
         )
 
-        print("\n" + "=" * 80)
-        print("RESPONSE SENT")
-        print(response)
-        print("=" * 80)
-
         return response
 
     except Exception:
 
-        print("\n" + "=" * 80)
-        print("EXCEPTION OCCURRED")
         traceback.print_exc()
-        print("=" * 80)
-
         raise
